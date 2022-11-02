@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner-background {
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.banner-heading-prime, .banner-heading-sub, .content-heading {
+  font-family: 'Roboto Slab', serif;
+}
+
+.banner-heading-prime {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.banner-heading-sub {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+}
+
+.content-background {
+  width: 100vw;
+  padding: 2rem 0;
+}
+
+.content-heading {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+  letter-spacing: 1px;
+}
+
+
+.content-text {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: .5rem;
+  line-height: 1.8;
+}
+
+.content-link {
+  font-family: 'Poppins', sans-serif;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin: .5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+@media(max-width: 730px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media(max-width: 440px) {
+  .content-link {
+    font-size: 1rem;
+  }
+}
